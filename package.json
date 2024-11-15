@@ -1,6 +1,6 @@
 {
   "name": "wish-btn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/wish-btn.umd.js",
   "module": "dist/wish-btn.es.js",
   "types": "dist/types/index.d.ts",
