@@ -1,0 +1,18 @@
+{
+  "name": "wish-btn",
+  "version": "1.0.0",
+  "main": "dist/my-react-library.umd.js",
+  "module": "dist/my-react-library.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "keywords": ["react", "typescript", "vite", "library"],
+  "author": "vishnu",
+  "license": "MIT"
+}
