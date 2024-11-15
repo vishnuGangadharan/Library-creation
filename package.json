@@ -1,10 +1,12 @@
 {
   "name": "wish-btn",
   "version": "1.0.0",
-  "main": "dist/my-react-library.umd.js",
-  "module": "dist/my-react-library.es.js",
+  "main": "dist/wish-btn.umd.js",
+  "module": "dist/wish-btn.es.js",
   "types": "dist/types/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build"
   },
@@ -12,7 +14,17 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
-  "keywords": ["react", "typescript", "vite", "library"],
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "library"
+  ],
   "author": "vishnu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
 }
